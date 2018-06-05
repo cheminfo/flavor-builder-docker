@@ -1,5 +1,14 @@
 #!/bin/bash
 
+until curl --silent http://couchdb:5984/ | grep Welcome; do
+  >&2 echo "Couchdb is unavailable - sleeping"
+  sleep 1
+done
+
+>&2 echo "Couchdb is available"
+
+
+
 printenv | sed 's/^\(.*\)$/export \1/g' > /env.sh
 
 service cron start

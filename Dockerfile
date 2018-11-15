@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:10-slim
 
 RUN apt-get update && apt-get install -y cron git
 EXPOSE 80

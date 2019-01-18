@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y cron git
 # Get flavor-builder
 WORKDIR /git/flavor-builder
 COPY package.json package.json
-RUN npm i && rm -rf /root/.npm /usr/local/share/.cache /root/.cache
+RUN npm i
 
 COPY crontab /etc/cron.d/flavorbuilder
 RUN chmod 744 /etc/cron.d/flavorbuilder

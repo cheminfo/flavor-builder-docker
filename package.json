@@ -3,6 +3,6 @@
   "version": "1.2.1",
   "private": true,
   "dependencies": {
-    "flavor-builder": "github:cheminfo/flavor-builder#v4.0.1"
+    "flavor-builder": "github:cheminfo/flavor-builder#v4.0.2"
   }
 }

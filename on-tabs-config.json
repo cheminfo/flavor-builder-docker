@@ -85,5 +85,6 @@
     }
   ],
   "visualizerFallbackVersion": "latest",
-  "visualizerVersion": "latest"
+  "visualizerVersion": "latest",
+  "visualizerCDN": "/visualizer"
 }

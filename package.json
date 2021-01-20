@@ -1,8 +1,8 @@
 {
   "name": "flavor-builder-docker",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": true,
   "dependencies": {
-    "flavor-builder": "github:cheminfo/flavor-builder#v4.0.4"
+    "flavor-builder": "github:cheminfo/flavor-builder#v4.0.5"
   }
 }
